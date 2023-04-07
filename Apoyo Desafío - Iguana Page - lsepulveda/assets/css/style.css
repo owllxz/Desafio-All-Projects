@@ -1,0 +1,144 @@
+.font-light{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.font-medium{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+#nav .font-medium{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#nav{
+    background-color: #000000;
+    width: 100%;
+    margin-top: 0;
+}
+#nav p{
+    text-align: center;
+    padding: 0.3em;
+    font-size: 3em;
+}
+#header{
+    width: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+#header img{
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+#descripcion{
+    background-color: #000000;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+#descripcion .container {
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#descripcion ul{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#descripcion img {
+    height: 20vh;
+}
+#descripcion li {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+#caracteristicas{
+    background-color: #1E1A13;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#caracteristicas .container{
+    width: 60%;
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#caracteristicas h2{
+    font-size: 2.0em;
+    text-align: center;
+}
+#caracteristicas ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+#caracteristicas li{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 3em;
+}
+#slides{
+    background-color: #000000;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+#slides .container{
+    width: 60%;
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#slides ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 0px;
+}
+#slides li{
+    margin: 3em;
+}
+#slides img{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    background-color: #1E1A13;
+    padding: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
